@@ -1,0 +1,8 @@
+{
+  "skill_name": "journal-finder",
+  "evals": [
+    {"id": 1, "prompt": "Benchmark on an already-published paper (light mode): title, abstract and keywords only; check whether the journal that published it appears high in the shortlist without being named.", "expected_output": "The publishing journal is in the top tier of the shortlist; every ranking value is sourced or marked not verified.", "files": []},
+    {"id": 2, "prompt": "Full manuscript using PLS-SEM (full mode): where should I submit this?", "expected_output": "Method stance checked for each journal; PLS-hostile journals excluded or flagged; report + xlsx delivered.", "files": []},
+    {"id": 3, "prompt": "Meta-analysis manuscript, English and French journals in scope.", "expected_output": "Francophone journals considered and verified; meta-analysis-friendly journals favoured.", "files": []}
+  ]
+}
